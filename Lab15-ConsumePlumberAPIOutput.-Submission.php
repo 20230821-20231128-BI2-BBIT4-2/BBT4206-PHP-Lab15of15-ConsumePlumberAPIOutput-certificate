@@ -65,7 +65,7 @@ $apiUrl = 'http://127.0.0.1:5022/symptoms';
 $curl = curl_init();
 
 // STEP 2: Set the values of the parameters to pass to the model ----
-/*
+
 // Modify the symptoms values accordingly
 $Symptom_1 = 'symptom1_value';
 $Symptom_2 = 'symptom2_value';
@@ -75,8 +75,8 @@ $Symptom_5 = 'symptom5_value';
 $Symptom_6 = 'symptom6_value';
 $Symptom_7 = 'symptom7_value';
 $Symptom_8 = 'symptom8_value';
-*/
 
+/*
 $Symptom_1 = 'example_value_1';
 $Symptom_2 = 'example_value_2';
 $Symptom_3 = 'example_value_3';
@@ -84,7 +84,7 @@ $Symptom_4 = 'example_value_4';
 $Symptom_5 = 'example_value_5';
 $Symptom_6 = 'example_value_6';
 $Symptom_7 = 'example_value_7';
-$Symptom_8 = 'example_value_8';
+$Symptom_8 = 'example_value_8';*/
 
 $params = array('Symptom_1' => $Symptom_1, 'Symptom_2' => $Symptom_2,
                 'Symptom_3' => $Symptom_3, 'Symptom_4' => $Symptom_4,
